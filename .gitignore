@@ -40,10 +40,10 @@ Thumbs.db
 *.7z
 
 # ========== 调试输出目录（Keil 默认输出路径） =========*
-/Project/Output/
-/Project/Listings/
-/Project/Objects/
-/Project/DebugConfig/
+/Output/
+/Listings/
+/Objects/
+/DebugConfig/
 /build/
 /Debug/
 /Release/
