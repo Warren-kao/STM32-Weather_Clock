@@ -123,9 +123,9 @@ Project/
 
 ## 🚀 开发计划
 
-- [ ] 搭建 Keil 工程，配置标准库
-- [ ] 实现 System 层：Delay / Timer
-- [ ] 实现 Hardware 驱动：OLED（I2C）显示测试
+- [x] 搭建 Keil 工程，配置标准库
+- [x] 实现 System 层：Delay / Timer
+- [x] 实现 Hardware 驱动：OLED（I2C）显示测试
 - [ ] 实现 Hardware 驱动：DHT11 温湿度读取
 - [ ] 实现 User 应用层：数据采集与显示刷新
 - [ ] 嘉立创 EDA 原理图设计
