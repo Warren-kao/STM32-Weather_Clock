@@ -1,55 +1,54 @@
-# Prerequisites
-*.d
-
-# Object files
+# ========== Keil 编译输出 ==========
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+*.d
+*.crf
+*.lst
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.axf
+*.bin
 *.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# ========== Keil 工程配置（每个人不同） ==========
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvguix
+*.scvd
+*.uvguix.*
+*.uvoptx.*
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ========== 备份文件 ==========
+*.bak
+*.dep
+*.iex
+*.sct
 
-# debug information files
-*.dwo
+# ========== 系统/IDE 垃圾 ==========
+.DS_Store
+Thumbs.db
+*.log
+
+# ========== 用户本地配置（禁止上传） ==========
+*.user
+*.local
+*.lst
+*.lnp
+
+# ========== 打包输出 ==========
+*.zip
+*.rar
+*.7z
+
+# ========== 调试输出目录（Keil 默认输出路径） =========*
+/Project/Output/
+/Project/Listings/
+/Project/Objects/
+/Project/DebugConfig/
+/build/
+/Debug/
+/Release/
+
+# ========== STM32CubeMX 临时文件（如果有） =========*
+*.ioc.bak
+*_CubeMX_Code/
+*.tmp
