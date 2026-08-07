@@ -83,12 +83,13 @@ Project/
 │   ├── OLED.c/h                           # OLED 显示驱动（I2C）
 │   ├── OLED_Font.h                        # OLED 字体库
 │   ├── Serial.c/h                         # 串口通信（printf 重定向）
-│   └── DHT11.c/h                          # DHT11 温湿度传感器
+│   ├── DHT11.c/h                          # DHT11 温湿度传感器
+│   └── ...                                # 其他驱动(如果有)
 │
 ├── User/                                  # 应用层
 │   ├── main.c                             # 主程序入口
 │   ├── stm32f10x_conf.h                   # 外设配置文件
-│   ├── stm32f10x_it.c/h                   # 中断服务函数
+│   └── stm32f10x_it.c/h                   # 中断服务函数
 │
 └── Project.uvprojx                        # Keil 工程文件
 
