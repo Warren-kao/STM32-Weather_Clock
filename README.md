@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/badge/Platform-STM32-blue?style=for-the-badge&logo=stmicroelectronics)](https://www.st.com/)
 
 <p align="center">
-  <i>📟 我的第一个嵌入式项目 —— 把学到的知识串起来</i>
+  <i>📟 我的第一个嵌入式项目</i>
 </p>
 
 ---
